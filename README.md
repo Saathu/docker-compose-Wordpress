@@ -37,7 +37,7 @@ sudo apt install docker-ce
 ```
 docker-compose install
 ```
-sudo apt  install docker-compose 
+sudo apt install docker-compose 
 ```
 
 Danach habe ich das Docker Compose File geschrieben. Dabei habe ich alle erforderlichen Konfigurationen eingegeben, um sicherzustellen, dass der Wordpress-Container und der Datenbank-Container richtig erstellt werden. 
@@ -93,11 +93,11 @@ cd docker-compose-Wordpress
 ````
 Führen Sie den folgenden Befehl aus, um das Docker Compose File auszuführen:
 ````
-docker-compose up
+sudo docker-compose up
 ````
 oder folgenden Befehl ausführen um im hintergrund laufen zu lassen:
 ````
-docker-compose up -d
+sudo docker-compose up -d
 ````
 Sobald die Container erstellt und gestartet wurden, können Sie die Wordpress-Website testen, indem Sie Ihren Webbrowser öffnen und http://localhost aufrufen. Hier sollten Sie dann die Standard-Wordpress-Seite sehen können.
 
